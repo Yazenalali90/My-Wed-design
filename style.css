@@ -147,6 +147,25 @@ figure figcaption {
   margin-top: 5px;
 }
 
+/* Form Styles */
+form {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
 /* Classes for Styling */
 .bg-light {
   background-color: #f9f9f9;
