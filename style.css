@@ -15,11 +15,13 @@ body {
 
 /* Header Styles */
 header {
+  box-sizing: border-box;
   background-color: #31363F;
   color: #fff;
   padding: 20px 0;
   text-align: center;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 header h1 {
@@ -174,3 +176,5 @@ legend {
 .text-primary {
   color: #31363F;
 }
+
+

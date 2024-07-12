@@ -4,27 +4,39 @@
   <meta charset="UTF-8">
   <title>About Me and My Avatar</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="nav-menu.css">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Page</h1>
-    <nav>
-      <ul>
+    <img src="images/logo2.png" alt="Site Logo" class="logo">
+    <h1>Welcome to My Website</h1>
+    <nav class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about-me">About Me</a>
+      <a href="#about-avatar">About My Avatar</a>
+      <a href="#web-development">Web Development</a>
+      <a href="#schedule">Schedule</a>
+      <a href="contact-us.html">Contact Us</a> 
+    </nav>
+  </header>
+
+  <aside class="content-list">
+    <h2>Content List</h2>
+    <ul>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#about-avatar">About My Avatar</a></li>
         <li><a href="#web-development">Web Development</a></li>
         <li><a href="#schedule">Schedule</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li> 
-      </ul>
-    </nav>
-  </header>
+    </ul>
+ </aside>
+
   <main>
-    <section id="about-me">
+    <section id="about-me" class="container clearfix" >
       <h2>About Me</h2>
-      <figure>
+      <figure class="image-container float-left">
         <a href="images/about-me-lg.jpg" target="_blank">
           <img src="images/about-me-thumb.jpg" alt="Yazen Alali enjoying a hike in the mountains">
         </a>
@@ -37,9 +49,9 @@
       <p>I also love to travel and explore new cultures. My travels have taken me to various countries, where I have met incredible people and experienced diverse traditions. These journeys have enriched my understanding of the world and have inspired me to incorporate multicultural elements into my projects. Traveling has also taught me valuable lessons in adaptability and resilience, which are essential qualities in both personal and professional life.</p>
     </section>
 
-    <section id="about-avatar">
+    <section id="about-avatar" class="container clearfix">
       <h2>About My Avatar</h2>
-      <figure>
+      <figure class="image-container float-left">
         <a href="images/about-avatar-lg.jpg" target="_blank">
           <img src="images/about-avatar-thumb.jpg" alt="Link from The Legend of Zelda">
         </a>
@@ -52,9 +64,9 @@
       <p>Link's connection to the natural world is another aspect that resonates with me. His adventures often take him through lush forests, towering mountains, and serene lakes, reflecting a deep respect for nature. This has inspired me to be more environmentally conscious and to consider the impact of technology on our planet. I aim to develop sustainable and eco-friendly solutions in my projects, contributing to a better future for our world.</p>
     </section>
 
-    <section id="web-development">
+    <section id="web-development" class="container clearfix">
       <h2>Web Development Skills</h2>
-      <figure>
+      <figure class="image-container float-left">
         <a href="images/web-development-lg.jpg" target="_blank">
           <img src="images/web-development-thumb.jpg" alt="Web Development Project">
         </a>
@@ -67,7 +79,7 @@
       <p>Lastly, I am keen on mastering version control systems, particularly Git, which is an indispensable tool for collaborative development. By effectively using Git, I can manage code changes, track project history, and collaborate seamlessly with other developers. This skill will be invaluable in my future career, where teamwork and collaboration are often key to the success of software projects.</p>
     </section>
 
-    <section id="schedule">
+    <section id="schedule" class="container clearfix">
       <h2>Schedule</h2>
       <table>
         <caption>My Weekly Schedule</caption>
