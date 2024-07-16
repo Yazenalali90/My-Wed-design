@@ -177,6 +177,7 @@ legend {
   color: #31363F;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
   header {
       padding: 15px 0;
@@ -208,3 +209,6 @@ legend {
       width: 80%;
   }
 }
+=======
+
+>>>>>>> f74fcbf779876b33cefa39c0773a95c74ec15edc
