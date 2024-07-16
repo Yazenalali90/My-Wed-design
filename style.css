@@ -177,4 +177,34 @@ legend {
   color: #31363F;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+      padding: 15px 0;
+  }
 
+  header h1 {
+      font-size: 2em;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  nav ul li a {
+      display: block;
+      padding: 10px;
+  }
+
+  main {
+      padding: 15px;
+  }
+
+  table {
+      font-size: 14px;
+  }
+
+  form {
+      width: 80%;
+  }
+}
