@@ -1,0 +1,227 @@
+/* Box sizing rule */
+* {
+    box-sizing: border-box;
+  }
+
+  main {
+    width: 80vw;
+    /* margin: 0 auto; */
+  }
+  
+  /* Container class for sections */
+  .container {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Image container class */
+  .image-container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Floated element class */
+  .float-left {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  /* Styling for the aside */
+aside.content-list {
+  position: sticky;
+  top: 20px;
+  float: right;
+  width: 14vw; /* Adjust width as needed */
+  margin-left: 20px; /* Add some space from the main content */
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading style */
+aside.content-list h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333; /* Dark text color */
+}
+
+/* List style */
+aside.content-list ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+/* List item style */
+aside.content-list li {
+  margin-bottom: 8px;
+}
+
+/* Link style */
+aside.content-list a {
+  color: #000; /* Black link color */
+   text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Link hover style */
+aside.content-list a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+
+  
+  /* Alternating float for images */
+.float-left {
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+  }
+  
+  .float-right {
+    float: right;
+    width: 45%;
+    margin-left: 20px;
+  }
+  
+  /* Ensure figures do not exceed container width */
+  figure {
+    max-width: 100%;
+  }
+  
+  /* Clearfix to maintain normal flow */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  /* Logo Styles */
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 60px; /* Adjust as needed */
+    height: auto;
+    z-index: 1000; /* Ensure it is above other elements */
+  }
+  
+  /* Flexbox container for team members */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-member {
+  flex: 1 1 30%;
+  max-width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.team-member figcaption {
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31363F;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.footer-column:first-child {
+  order: 1;
+}
+
+.footer-column:nth-child(2) {
+  order: 2;
+  text-align: center;
+}
+
+.footer-column:last-child {
+  order: 3;
+  text-align: right;
+}
+
+footer a {
+  color: #000000; /* Change to black (#000000) */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+  footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  footer .column {
+      flex: none;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  footer .column:last-child {
+      text-align: center;
+  }
+}
+  
+
