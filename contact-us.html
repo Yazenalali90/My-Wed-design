@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nav-menu.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo2.png" alt="Site Logo" class="logo">
+        <h1>Contact Us</h1>
+        <nav class="topnav">
+            <div class="left-links">
+                <a href="index.html">Home</a>
+                <!-- <a href="#about-me">About Me</a>
+                <a href="#about-avatar">About My Avatar</a>
+                <a href="#web-development">Web Development</a>
+                <a href="#schedule">Schedule</a> -->
+                <a href="team.html">Team</a>
+                <a class="active" href="contact-us.html">Contact Us</a>
+            </div>
+            <div class="right-links">
+                <a href="#">Sign In</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form action="success.html" method="GET">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    
+                    <label for="email-contact">Preferred Method of Contact:</label><br>
+                    <input type="radio" id="email-contact" name="contact-method" value="email" checked>
+                    <label for="email-contact">Email</label><br>
+                    <input type="radio" id="phone-contact" name="contact-method" value="phone">
+                    <label for="phone-contact">Phone</label><br><br>
+                    
+                    <label for="web-design">Interested in Web Design:</label><br>
+                    <input type="checkbox" id="web-design" name="services" value="web-design">
+                    <label for="web-design">Web Design</label><br>
+                    
+                    <label for="seo">Interested in SEO:</label><br>
+                    <input type="checkbox" id="seo" name="services" value="seo">
+                    <label for="seo">SEO</label><br>
+                    
+                    <label for="consulting">Interested in Consulting:</label><br>
+                    <input type="checkbox" id="consulting" name="services" value="consulting">
+                    <label for="consulting">Consulting</label><br><br>
+                    
+                    <label for="budget">Project Budget:</label><br>
+                    <select id="budget" name="budget">
+                        <option value="under-1000">Under $1000</option>
+                        <option value="1000-5000">$1000 - $5000</option>
+                        <option value="5000-10000">$5000 - $10000</option>
+                        <option value="over-10000">Over $10000</option>
+                    </select><br><br>
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+            
+            
+        </div>
+    </main>
+    <footer>
+        <div class="column">
+            <p>External Links:</p>
+            <a href="https://www.dcccd.edu">Dallas College Website</a>
+            <a href="https://www.projectmanagement.com/">Project Management Tips</a>
+            <a href="https://www.microsoft.com/en-us/ai">Microsoft AI</a>
+        </div>
+        <div class="column">
+            <p>&copy; 2024 Email Webmaster</p>
+            <p><a href="mailto:email@example.com">Email Webmaster</a></p>
+        </div>
+        <div class="column">
+            <p>Site Pages:</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="team.html">Team</a>
+                <a href="contact-us.html">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
