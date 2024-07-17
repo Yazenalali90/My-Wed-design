@@ -44,6 +44,10 @@
   }
   
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1403fd6ea363437d6de1bf8bef9914fd801d54d5
   /* Styling for the aside */
 aside.content-list {
   position: sticky;
@@ -87,6 +91,17 @@ aside.content-list a:hover {
   color: #0056b3; /* Darker blue on hover */
 }
 
+<<<<<<< HEAD
+=======
+=======
+  aside.content-list {
+    float: right;
+    /* width: 20vw; */
+    position: sticky;
+    top: 20px;
+  }
+>>>>>>> f74fcbf779876b33cefa39c0773a95c74ec15edc
+>>>>>>> 1403fd6ea363437d6de1bf8bef9914fd801d54d5
 
   
   /* Alternating float for images */
@@ -125,6 +140,10 @@ aside.content-list a:hover {
     z-index: 1000; /* Ensure it is above other elements */
   }
   
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1403fd6ea363437d6de1bf8bef9914fd801d54d5
   /* Flexbox container for team members */
 .team-container {
   display: flex;
@@ -225,3 +244,9 @@ footer p {
 }
   
 
+<<<<<<< HEAD
+=======
+=======
+  
+>>>>>>> f74fcbf779876b33cefa39c0773a95c74ec15edc
+>>>>>>> 1403fd6ea363437d6de1bf8bef9914fd801d54d5
