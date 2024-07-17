@@ -44,7 +44,6 @@
   }
   
 
-<<<<<<< HEAD
   /* Styling for the aside */
 aside.content-list {
   position: sticky;
@@ -88,14 +87,6 @@ aside.content-list a:hover {
   color: #0056b3; /* Darker blue on hover */
 }
 
-=======
-  aside.content-list {
-    float: right;
-    /* width: 20vw; */
-    position: sticky;
-    top: 20px;
-  }
->>>>>>> f74fcbf779876b33cefa39c0773a95c74ec15edc
 
   
   /* Alternating float for images */
@@ -134,7 +125,6 @@ aside.content-list a:hover {
     z-index: 1000; /* Ensure it is above other elements */
   }
   
-<<<<<<< HEAD
   /* Flexbox container for team members */
 .team-container {
   display: flex;
@@ -235,6 +225,3 @@ footer p {
 }
   
 
-=======
-  
->>>>>>> f74fcbf779876b33cefa39c0773a95c74ec15edc
