@@ -40,10 +40,10 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #060000;
   text-decoration: none;
   padding: 5px 10px;
-  background-color: #D7E4C0;
+  background-color: #ffffff;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
