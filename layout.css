@@ -191,7 +191,7 @@ footer {
 }
 
 footer a {
-  color: #000000; /* Change to black (#000000) */
+  color: #ffffff; /* Change to black (#000000) */
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
@@ -362,4 +362,15 @@ body {
 
 .float-left {
   float: left;
+}
+
+
+.custom-teal {
+  background-color: #31363F;
+  color: white; /* Optional: sets the text color for better contrast */
+
+}
+
+.custom-text-teal{
+  color:#31363F;
 }
